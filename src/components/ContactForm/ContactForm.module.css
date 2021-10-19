@@ -1,0 +1,41 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-bottom: 25px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  min-width: 200px;
+  padding: 5px 30px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 4px 4px;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 150, 243);
+}
+
+.input {
+  border: 1px solid #1c8db3;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.input:hover,
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}

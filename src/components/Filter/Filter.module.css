@@ -1,0 +1,18 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-bottom: 25px;
+}
+
+.input {
+  border: 1px solid #1c8db3;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.input:hover,
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}
